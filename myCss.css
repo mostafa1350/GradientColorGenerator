@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background: #65aaff;
+}
+.mainBody{
+    padding:20px;
+    background: #aaffff;
+    border:2px solid #786547;
+    border-radius: 6px;
+    width:450px;
+    font-size:1.5rem;
+}
+.mainBody .gradien-section{
+    width:100%;
+    height:250px;
+    background: #1298ff;
+}
