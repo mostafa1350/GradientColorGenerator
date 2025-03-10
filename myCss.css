@@ -22,4 +22,36 @@ body{
     width:100%;
     height:250px;
     background: #1298ff;
+    border-radius:6px;
 }
+.mainBody .row{
+    display:flex;
+    justify-content:space-between;
+    margin: 20px 0;
+    
+}
+.mainBody textarea{
+    width:100%;
+    padding: 10px 15px;
+    resize:none;
+}
+.buttons button{
+    color: #ffffff;
+    border-radius:5px;
+    width: 150px;
+    height:50px;
+    font-size:1.12rem;
+}
+.buttons .refresh{
+    background: #879086;
+}
+.buttons .copy{
+    background: #8790ff;
+}
+.colors{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+/
