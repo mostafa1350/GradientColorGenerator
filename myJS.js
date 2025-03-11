@@ -1,12 +1,18 @@
-const colorInputs = document.querySelector(".colors .inputs");
-
+const colorInputs = document.querySelectorAll(".colors input");
+const gradientBox = document.querySelector(".gradienBox");
+const selectMenu = document.querySelector(".select-box select");
 
 const generateGradient =()=>{
-    const gradient = `linear-gradient(to top left,
+    const gradient = `linear-gradient(${selectMenu.value},
                     ${colorInputs[0].value},${colorInputs[1].value})`;
-    console.log(gradient);
+
+    gradientBox.style.background = gradient;
+
 }
+
 colorInputs.forEach(input => {
     input.addEventListener("input",generateGradient);
     
 });
+
+selectMenu.addEventListener("change", generateGradient);
