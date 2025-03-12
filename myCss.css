@@ -27,6 +27,7 @@ body{
 .mainBody .row{
     display:flex;
     justify-content:space-between;
+    height:80px;
     margin: 20px 0;
     
 }
